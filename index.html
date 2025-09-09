@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AW Outdoor Services LLC — Lawn Care & Landscaping</title>
+  <meta name="description" content="AW Outdoor Services LLC provides professional lawn care, mowing, edging, trimming, hedge work, planting, pine straw, pruning, and chemical treatments. Serving Columbus, GA and surrounding areas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">
+        <img src="assets/logo.png" alt="AW Outdoor Services LLC logo" />
+        <span>AW Outdoor Services LLC</span>
+      </a>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-accent">Free Estimate</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1><span class="glow">Lawn care</span> that looks sharp and stays sharp.</h1>
+          <p>Professional mowing, edging, trimming, pruning, planting, hedge work, pine straw, and chemical lawn treatments — done right and on time.</p>
+          <div class="cta">
+            <a class="btn btn-accent" href="tel:17063938722">Call 706-393-8722</a>
+            <a class="btn btn-ghost" href="#services">See Services</a>
+          </div>
+          <div class="badges">
+            <span>Serving Columbus, GA</span>
+            <span>Insured</span>
+            <span>Free Estimates</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card glass">
+            <h3>Get a fast quote</h3>
+            <form id="quoteForm">
+              <label>Full Name<input name="name" required placeholder="Your name"></label>
+              <label>Phone<input name="phone" required placeholder="(###) ###-####"></label>
+              <label>Address<input name="address" placeholder="Street, City"></label>
+              <label>Service<select name="service">
+                <option>Mowing & Edging</option>
+                <option>Trimming Hedges</option>
+                <option>Pruning</option>
+                <option>Planting</option>
+                <option>Pine Straw</option>
+                <option>Chemical Lawn Treatment</option>
+              </select></label>
+              <button class="btn btn-accent" type="submit">Request Estimate</button>
+              <p class="form-note">Or call <a href="tel:17063938722">706-393-8722</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="hero-accent"></div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="section-lead">Let us take care of all your outdoor needs.</p>
+        <div class="grid">
+          <div class="card service">
+            <div class="icon"><img src="assets/icons/mowing-edging.png" alt="Mowing & Edging"></div>
+            <h3>Mowing & Edging</h3>
+            <p>Crisp lines and even cuts for a clean, finished yard.</p>
+          </div>
+          <div class="card service">
+            <div class="icon"><img src="assets/icons/hedges.png" alt="Trimming & Hedges"></div>
+            <h3>Trimming & Hedges</h3>
+            <p>Shape, control, and curb-appeal for shrubs and hedges.</p>
+          </div>
+          <div class="card service">
+            <div class="icon"><img src="assets/icons/pruning.png" alt="Pruning"></div>
+            <h3>Pruning</h3>
+            <p>Healthy growth by removing dead or overgrown branches.</p>
+          </div>
+          <div class="card service">
+            <div class="icon"><img src="assets/icons/planting.png" alt="Planting"></div>
+            <h3>Planting</h3>
+            <p>Beds and installs that thrive in Georgia’s climate.</p>
+          </div>
+          <div class="card service">
+            <div class="icon"><img src="assets/icons/pine-straw.png" alt="Pine Straw"></div>
+            <h3>Pine Straw</h3>
+            <p>Fresh straw laid neatly with clean edges and depth.</p>
+          </div>
+          <div class="card service">
+            <div class="icon"><img src="assets/icons/chemical.png" alt="Chemical Treatments"></div>
+            <h3>Chemical Treatments</h3>
+            <p>Targeted care to control weeds and promote a lush lawn.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container about">
+        <div>
+          <h2>About Us</h2>
+          <p>Owned and operated by <strong>Antonio Williams</strong>, AW Outdoor Services LLC is your reliable partner for lawn care and landscaping in Columbus, GA and surrounding areas. We focus on quality, clear communication, and clean results — every time.</p>
+          <ul class="ticks">
+            <li>Locally owned & insured</li>
+            <li>Prompt scheduling</li>
+            <li>Attention to detail</li>
+          </ul>
+          <a class="btn btn-accent" href="#contact">Book a free estimate</a>
+        </div>
+        <div class="about-card card glass">
+          <h3>Service Area</h3>
+          <p>Columbus, GA and nearby communities.</p>
+          <p class="small">Have a question? Text or call us.</p>
+          <a class="btn btn-ghost" href="sms:+17063938722">Text 706-393-8722</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2>Contact</h2>
+        <p>Call or message now for your free estimate.</p>
+        <div class="contact-cards">
+          <a class="card contact-card" href="tel:17063938722">
+            <h3>Phone</h3>
+            <p>706-393-8722</p>
+          </a>
+          <a class="card contact-card" href="mailto:info@awoutdoorservices.com">
+            <h3>Email</h3>
+            <p>info@awoutdoorservices.com</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> AW Outdoor Services LLC — Columbus, GA</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook" title="Facebook">
+          <img src="assets/icons/facebook.png" alt="Facebook" width="20" height="20">
+        </a>
+        <a href="#" aria-label="Instagram" title="Instagram">
+          <img src="assets/icons/instagram.png" alt="Instagram" width="20" height="20">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
